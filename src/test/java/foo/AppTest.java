@@ -1,5 +1,6 @@
 package foo;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -13,7 +14,8 @@ public  WebDriver driver;
 	{
 		System.out.println("1212121212121");
 		driver = new FirefoxDriver();
-		driver.get("");
+		driver.get("https://google.com");
+		driver.findElement(By.id("test"));
 		System.out.println("1212155555555555551");
 		
 	}
