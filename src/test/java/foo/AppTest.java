@@ -13,7 +13,7 @@ public  WebDriver driver;
 	{
 		System.out.println("1212121212121");
 		driver = new FirefoxDriver();
-		driver.get("https://google.com");
+		driver.get("");
 		System.out.println("1212155555555555551");
 		
 	}
