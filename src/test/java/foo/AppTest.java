@@ -16,6 +16,7 @@ public  WebDriver driver;
 		driver = new FirefoxDriver();
 		driver.get("https://google.com");
 		driver.findElement(By.id("test"));
+		driver.findElement(By.name("test"));
 		System.out.println("1212155555555555551");
 		
 	}

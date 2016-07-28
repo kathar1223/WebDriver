@@ -55,7 +55,7 @@
 						<configuration>
 							<argLine>-Xms2048M -Xmx4096M</argLine>
 							<suiteXmlFiles>
-								<suiteXmlFile>src/test/java/com/foo/WebDriver.xml</suiteXmlFile>
+								<suiteXmlFile>src/test/java/foo/WebDriver.xml</suiteXmlFile>
 							</suiteXmlFiles>
 						</configuration>
 						<executions>
